@@ -1,0 +1,54 @@
+# Blog App
+
+Welcome to the Blog App project! This is a simple web application built with Express.js, Sequelize, and other technologies. The app allows users to register, log in, create, edit, and delete posts, as well as manage their user profile.
+
+## Features
+
+- User registration and authentication
+- Create, edit, and delete posts
+- User profile management
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/omoh09/blog-App.git`
+2. Navigate to the project directory: `cd blog-app`
+3. Install dependencies: `npm install`
+
+## Configuration
+
+1. Copy the `.env.example` file and rename it to `.env`.
+2. Configure the environment variables in the `.env` file, including the database connection settings and secret keys.
+
+## Usage
+
+1. Start the development server: `npm run dev`
+2. Access the app in your browser at `http://localhost:3000`
+
+## Endpoints
+
+- **GET /api/users**: Get a list of all users.
+- **POST /api/users/register**: Register a new user.
+- **POST /api/users/login**: Log in as an existing user.
+- **GET /api/users/profile**: Get the authenticated user's profile.
+- **PUT /api/users/profile**: Update the authenticated user's profile.
+- **GET /api/posts**: Get a list of all posts.
+- **GET /api/posts/{id}**: Get a specific post by ID.
+- **POST /api/posts**: Create a new post.
+- **PUT /api/posts/{id}**: Edit a post by ID.
+- **DELETE /api/posts/{id}**: Delete a post by ID.
+
+## Technologies Used
+
+- Express.js: Web application framework
+- Sequelize: Object-Relational Mapping (ORM) for database interactions
+- bcrypt: Password hashing and authentication
+- jsonwebtoken: JWT authentication
+- Joi: Data validation
+- Swagger: API documentation
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
